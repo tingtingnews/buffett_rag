@@ -1,0 +1,13 @@
+# Core RAG pipeline
+chromadb>=0.5.0              # vector database (the "magic box" that finds matching cards)
+sentence-transformers>=3.0  # turns text into vectors (embeddings)
+anthropic>=0.40.0           # calls Claude to write the final answer
+
+# Financial data
+yfinance>=0.2.40            # stock prices and financial statements
+
+# QA / testing
+pytest>=8.0                 # runs the unit tests
+
+# Utilities
+requests>=2.31             # used by the letters downloader

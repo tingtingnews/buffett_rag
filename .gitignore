@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Secrets — NEVER commit your API key
+.env
+
+# Vector DB (rebuilt from data/, no need to commit)
+chroma_db/
+
+# Downloaded letters (large; user downloads them locally)
+data/letters/
+
+# OS noise
+.DS_Store
