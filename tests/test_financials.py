@@ -13,10 +13,16 @@ import math
 import pytest
 
 from src.financials import (
+    LOW_CONFIDENCE_MOS_PENALTY,
+    NORMAL_CONFIDENCE,
+    assess_data_quality,
     buy_zone,
+    implied_g1,
     intrinsic_value_per_share,
     margin_of_safety,
+    mid_cycle_owner_earnings,
     owner_earnings,
+    target_buy_price,
 )
 
 
@@ -114,3 +120,166 @@ def test_buy_zone_matches_valueos_mco_example():
     ratio = margin_of_safety(432.20, 560)
     assert math.isclose(ratio, 0.772, abs_tol=0.001)
     assert buy_zone(ratio) == "acceptable"
+
+
+def test_buy_zone_penalty_widens_every_zone():
+    # A 10c penalty moves each threshold down by 10c: 0.74 was "good", now it isn't.
+    assert buy_zone(0.74) == "good"
+    assert buy_zone(0.74, mos_penalty=0.10) == "accumulate cautiously"
+    assert buy_zone(0.60, mos_penalty=0.10) == "ideal"
+    assert buy_zone(0.65, mos_penalty=0.10) == "good"
+
+
+def test_buy_zone_rejects_bad_penalty():
+    with pytest.raises(ValueError):
+        buy_zone(0.70, mos_penalty=1.0)
+    with pytest.raises(ValueError):
+        buy_zone(0.70, mos_penalty=-0.01)
+
+
+# ------------------------------ target_buy_price ---------------------------
+
+def test_target_buy_price_default_is_good_zone():
+    assert math.isclose(target_buy_price(400), 300.0)
+
+
+def test_target_buy_price_penalty_demands_a_lower_price():
+    assert math.isclose(target_buy_price(400, mos_penalty=0.10), 260.0)
+
+
+def test_target_buy_price_rejects_bad_inputs():
+    with pytest.raises(ValueError):
+        target_buy_price(0)
+    with pytest.raises(ValueError):
+        target_buy_price(400, zone_ratio=0.10, mos_penalty=0.10)
+
+
+# --------------------------------- implied_g1 -------------------------------
+
+def test_implied_g1_inverts_the_dcf():
+    # Same hand-calculated case as test_dcf_hand_calculated_case: flat earnings of
+    # 100 with zero growth and a 10% discount rate are worth exactly 100/share,
+    # so a price of 100 implies g1 = 0%.
+    g = implied_g1(price=100.0, base_owner_earnings=100, shares_outstanding=10,
+                   g2=0.0, terminal_growth=0.0, discount_rate=0.10)
+    assert math.isclose(g, 0.0, abs_tol=1e-6)
+
+
+def test_implied_g1_round_trips_through_the_forward_dcf():
+    # Value the business at a known g1, then ask what growth that value implies.
+    inputs = dict(base_owner_earnings=50e9, shares_outstanding=2e9,
+                  g2=0.09, terminal_growth=0.04, discount_rate=0.10, net_cash=-6.5e9)
+    iv = intrinsic_value_per_share(g1=0.13, **inputs)
+    assert math.isclose(implied_g1(price=iv, **inputs), 0.13, abs_tol=1e-6)
+
+
+def test_implied_g1_rises_with_price():
+    inputs = dict(base_owner_earnings=100, shares_outstanding=10,
+                  g2=0.05, terminal_growth=0.03, discount_rate=0.10)
+    assert implied_g1(price=200, **inputs) > implied_g1(price=150, **inputs)
+
+
+def test_implied_g1_rejects_nonpositive_base_earnings():
+    # A loss-making base has no growth rate that explains any positive price.
+    with pytest.raises(ValueError):
+        implied_g1(price=100, base_owner_earnings=-5, shares_outstanding=10,
+                   g2=0.05, terminal_growth=0.03, discount_rate=0.10)
+
+
+def test_implied_g1_rejects_price_outside_the_bracket():
+    inputs = dict(base_owner_earnings=100, shares_outstanding=10,
+                  g2=0.05, terminal_growth=0.03, discount_rate=0.10)
+    with pytest.raises(ValueError, match="above intrinsic value"):
+        implied_g1(price=1e9, **inputs)
+    with pytest.raises(ValueError, match="below intrinsic value"):
+        implied_g1(price=0.01, **inputs)
+
+
+def test_implied_g1_rejects_bad_bounds_and_price():
+    inputs = dict(base_owner_earnings=100, shares_outstanding=10,
+                  g2=0.05, terminal_growth=0.03, discount_rate=0.10)
+    with pytest.raises(ValueError):
+        implied_g1(price=0, **inputs)
+    with pytest.raises(ValueError):
+        implied_g1(price=100, bounds=(0.5, 0.1), **inputs)
+
+
+# -------------------------- mid_cycle_owner_earnings ------------------------
+
+def test_mid_cycle_owner_earnings_averages_the_cycle():
+    # A peak-to-trough semi cycle normalises to the middle, not the latest year.
+    assert math.isclose(mid_cycle_owner_earnings([30, 10, -5, 20, 25]), 16.0)
+
+
+def test_mid_cycle_owner_earnings_rejects_empty_history():
+    with pytest.raises(ValueError):
+        mid_cycle_owner_earnings([])
+
+
+def test_mid_cycle_base_values_a_cyclical_below_its_peak():
+    # Capitalising the peak year overstates a cyclical's intrinsic value.
+    cycle = [30, 10, -5, 20, 25]
+    common = dict(shares_outstanding=10, g1=0.05, g2=0.03,
+                  terminal_growth=0.02, discount_rate=0.10)
+    peak_iv = intrinsic_value_per_share(base_owner_earnings=max(cycle), **common)
+    mid_iv = intrinsic_value_per_share(
+        base_owner_earnings=mid_cycle_owner_earnings(cycle), **common)
+    assert mid_iv < peak_iv
+
+
+# ----------------------------- assess_data_quality --------------------------
+
+def test_data_quality_normal_when_history_is_long_and_positive():
+    q = assess_data_quality([10, 12, 14, 16, 18])
+    assert q.confidence == NORMAL_CONFIDENCE
+    assert not q.is_low
+    assert q.reasons == ()
+    assert q.mos_penalty == 0.0
+
+
+def test_data_quality_flags_short_history():
+    q = assess_data_quality([10, 12, 14])
+    assert q.is_low
+    assert q.years == 3
+    assert q.mos_penalty == LOW_CONFIDENCE_MOS_PENALTY
+    assert any("3 year(s)" in r for r in q.reasons)
+
+
+def test_data_quality_flags_sign_flips_even_with_long_history():
+    q = assess_data_quality([10, -2, 14, 16, 18, 20])
+    assert q.is_low
+    assert q.negative_years == 1
+    assert any("swing between positive and negative" in r for r in q.reasons)
+
+
+def test_data_quality_flags_all_negative_history():
+    q = assess_data_quality([-1, -2, -3, -4, -5])
+    assert q.is_low
+    assert any("every year" in r for r in q.reasons)
+
+
+def test_data_quality_empty_history_is_low_confidence():
+    q = assess_data_quality()
+    assert q.is_low
+    assert q.years == 0
+
+
+def test_data_quality_hand_verified_excuses_missing_history_but_not_sign_flips():
+    # Canonical hand-checked inputs carry no multi-year series; that alone is fine.
+    assert assess_data_quality(hand_verified=True).confidence == NORMAL_CONFIDENCE
+    assert assess_data_quality([10, -2], hand_verified=True).is_low
+
+
+def test_data_quality_extra_reasons_force_low_confidence():
+    q = assess_data_quality([10, 12, 14, 16, 18],
+                            extra_reasons=["cyclical business valued on TTM earnings"])
+    assert q.is_low
+    assert "cyclical business valued on TTM earnings" in q.reasons
+
+
+def test_low_confidence_penalty_pushes_a_buy_out_of_the_buy_zone():
+    # The end-to-end point of the flag: the same price/IV is no longer a buy.
+    ratio = margin_of_safety(300, 400)       # 0.75
+    q = assess_data_quality([10, 12, 14])    # thin history -> LOW CONFIDENCE
+    assert buy_zone(ratio) == "good"
+    assert buy_zone(ratio, mos_penalty=q.mos_penalty) == "accumulate cautiously"

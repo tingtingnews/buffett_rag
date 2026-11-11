@@ -1,0 +1,189 @@
+
+========================================================
+  Taiwan Semiconductor Manufactur (TSM) — Buffett RAG Analysis
+  2026-07-15 14:59
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  18.9%
+  FCF CAGR (5yr):      24.0%
+  ROE:                 36.2%
+  Current Price:       $420/share
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  ────────────────────────────────────────────────────
+  BEAR CASE  (g1=8%, g2=5%, terminal=3%, discount=12%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   52.7B
+    Depreciation & Amort:     +$   21.4B  (non-cash, add back)
+    Capital Expenditure:      -$   39.9B  (real cash out)
+    Stock Based Comp:         -$    0.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   34.2B
+
+    Growth Capex split:
+      Total Capex × growth%:  $39.9B × 60% = $23.9B
+      Addback (40% of growth capex):  +$9.6B
+    ············································
+    Owner Earnings (OE):      =$   43.8B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=8%):   $   196.6B
+    Stage 2  (yrs 6–10, g2=5%):   $   151.1B
+    Terminal (yr 10+, 3% forever):  $   302.7B
+    Net Cash (cash − debt):            $    52.9B
+    ············································
+    Total Equity Value:                $   703.3B
+
+  STEP 3 — PER SHARE
+    $703.3B ÷ 5.19B shares = $136/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $420 ÷ IV $136 = 3.10
+    (310c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Card 7.3 warns of a 55-65% probability of AI-speculation stocks crashing 50%+ within 3 years, and Card 5.3 notes TSMC already carries the portfolio's highest 11% discount rate due to geopolitical risk, so the bear case raises the rate further to 12% and assumes capex returns are partially impaired, compressing owner earnings.
+
+  ────────────────────────────────────────────────────
+  BASE CASE  (g1=20%, g2=12%, terminal=4%, discount=11%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   52.7B
+    Depreciation & Amort:     +$   21.4B  (non-cash, add back)
+    Capital Expenditure:      -$   39.9B  (real cash out)
+    Stock Based Comp:         -$    0.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   34.2B
+
+    Growth Capex split:
+      Total Capex × growth%:  $39.9B × 65% = $25.9B
+      Addback (60% of growth capex):  +$15.5B
+    ············································
+    Owner Earnings (OE):      =$   49.8B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=20%):   $   316.4B
+    Stage 2  (yrs 6–10, g2=12%):   $   377.6B
+    Terminal (yr 10+, 4% forever):  $  1142.2B
+    Net Cash (cash − debt):            $    52.9B
+    ············································
+    Total Equity Value:                $  1889.2B
+
+  STEP 3 — PER SHARE
+    $1889.2B ÷ 5.19B shares = $364/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $420 ÷ IV $364 = 1.15
+    (115c paid per $1 of intrinsic value)
+    Buy zone: DO NOT BUY
+
+  RAG reasoning: Card 5.3 explicitly provides the base-case IV assumptions for TSMC at g1=20%, g2=12%, terminal=4%, dr=11%, which align closely with the historical 5-year FCF CAGR of 24% after a modest haircut, reflecting TSMC's role as the dominant advanced-node foundry supplying Nvidia, Apple, and AMD simultaneously.
+
+  ────────────────────────────────────────────────────
+  BULL CASE  (g1=24%, g2=15%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   52.7B
+    Depreciation & Amort:     +$   21.4B  (non-cash, add back)
+    Capital Expenditure:      -$   39.9B  (real cash out)
+    Stock Based Comp:         -$    0.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   34.2B
+
+    Growth Capex split:
+      Total Capex × growth%:  $39.9B × 70% = $27.9B
+      Addback (70% of growth capex):  +$19.5B
+    ············································
+    Owner Earnings (OE):      =$   53.8B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=24%):   $   390.6B
+    Stage 2  (yrs 6–10, g2=15%):   $   560.3B
+    Terminal (yr 10+, 4% forever):  $  2118.6B
+    Net Cash (cash − debt):            $    52.9B
+    ············································
+    Total Equity Value:                $  3122.5B
+
+  STEP 3 — PER SHARE
+    $3122.5B ÷ 5.19B shares = $602/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $420 ÷ IV $602 = 0.70
+    (70c paid per $1 of intrinsic value)
+    Buy zone: IDEAL
+
+  RAG reasoning: Cards 1.1 and 5.3 together support a widening-moat bull case: TSMC's ~90% share of advanced-node manufacturing creates an 'arms dealer' network effect where competition among chip designers (Nvidia, AMD, Apple, Broadcom, Google) structurally increases TSMC orders, justifying near-historical FCF CAGR of 24% in Phase 1 and a slightly lower discount rate as moat durability reduces risk.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$102 (75% of IV)
+    Base: ~$273 (75% of IV)
+    Bull: ~$452 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# TSMC (TSM) — Value Analysis
+## Price: $420 | Base IV: $364 | Bull IV: $602 | Bear IV: $136
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The three scenarios paint a strikingly wide picture, which itself is informative:
+
+**Bear Case ($136 IV, ratio 3.10x):** At a 12% discount rate with impaired capex returns, TSMC is severely overvalued — the current price is *more than three times* intrinsic value. This scenario is anchored by the geopolitical risk premium already embedded in the base case [4], plus the warning that AI-speculation stocks carry a 55–65% probability of a 50%+ crash within three years. At $420, the bear case offers zero margin of safety and suggests potential permanent loss of capital.
+
+**Base Case ($364 IV, ratio 1.15x):** Using TSMC's own documented assumptions — g1=20%, g2=12%, terminal=4%, dr=11% — the stock trades at a 15% *premium* to intrinsic value [4]. This is the "DO NOT BUY" zone. The 11% discount rate is already the highest in the portfolio, explicitly assigned to reflect geopolitical risk [4]. The business quality is not in question; the price is.
+
+**Bull Case ($602 IV, ratio 0.70x):** Only under the most favorable assumptions — near-historical 24% FCF CAGR sustained, moat widening, discount rate compressing — does TSMC enter what the framework calls the "IDEAL" buy zone [2][3]. The arms-dealer network effect [4] is real and powerful, but *pricing this scenario in at $420 leaves no room for error.*
+
+**The key takeaway:** The spread between bear ($136) and bull ($602) is enormous — a 4.4x range. Wide scenario dispersion is a warning sign. It signals high uncertainty, which is precisely what the margin-of-safety principle exists to compensate for [1].
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Avoid adding. Hold only if already owned with a low cost basis.**
+
+The reasoning is straightforward from the framework:
+
+- At $420 versus a base IV of $364, you are paying **$1.15 for every $1.00 of intrinsic value** in the base case. That is unambiguously above the threshold — the framework states greater than 100¢ on the dollar means do not buy [2].
+- The margin-of-safety principle, borrowed from Benjamin Graham and central to Buffett's methodology, requires buying *meaningfully below* intrinsic value so that estimation errors are forgiven [1]. Here, even the base case estimate is below the current price.
+- Buffett himself famously exited much of his TSMC position in early 2023 citing geopolitical concerns — a real-world data point consistent with the 11% discount rate rationale [4].
+- The only scenario where $420 represents fair value is the bull case, and paying full price for the bull case is the antithesis of value investing. You are assuming perfection.
+
+---
+
+## 3. What Would Need to Change for a Buy Signal?
+
+Using the framework's zones [2], here is the math:
+
+| Zone | Threshold | Required Price |
+|---|---|---|
+| Acceptable (80¢) | Base IV × 0.80 | **≤ $291** |
+| Good (75¢) | Base IV × 0.75 | **≤ $273** |
+| Ideal (70¢) | Base IV × 0.70 | **≤ $255** |
+
+**For a buy signal, TSMC would need to fall roughly 30–40% from current levels** to reach acceptable-to-good territory on the base case IV of $364.
+
+Alternatively, the *bull case IV* ($602) would need to become the *base case* — which would require:
+- Geopolitical risk materially diminishing (reducing the 11% discount rate) [4]
+- Sustained FCF growth near the historical 24% CAGR [4]
+- No AI-speculation correction materializing [1][4]
+
+That is a lot of conditions to bank on before the price moves. A disciplined value investor waits for price to come to them, not the other way around.
+
+---
+
+## Sources Used
+-
+
+========================================================

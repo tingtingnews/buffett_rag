@@ -76,8 +76,10 @@ buffett-rag/
 │   ├── retrieve.py            <- find the best cards for a question
 │   ├── generate.py            <- assemble prompt + call Claude
 │   └── financials.py          <- owner-earnings + DCF math (deterministic)
+├── cli.py                     <- `buffett analyze / scenario / reverse / compare`
 ├── tests/
-│   └── test_financials.py     <- unit tests for the math (the QA core)
+│   ├── test_financials.py     <- unit tests for the math (the QA core)
+│   └── test_scenario_inputs.py<- the override + data-quality flag reaching the math
 ├── evals/
 │   └── eval_retrieval.py      <- measures retrieval quality
 └── scripts/
@@ -105,6 +107,38 @@ export ANTHROPIC_API_KEY=sk-...   # needed only for steps that call Claude
 python -m src.ingest
 python -m src.generate "Is Costco a good buy right now?"
 ```
+
+### Three guards on the valuation
+
+The DCF is only as honest as what you feed it, so three things sit around it:
+
+```bash
+# 1. Reverse DCF — what growth does today's price already assume?
+buffett reverse TSM                      # solves for g1; no API key, pure math
+buffett reverse MSFT --price 420 --discount 10
+
+# 2. Data-quality flag — thin or sign-flipping earnings widen the margin of safety
+buffett analyze COST                     # under 5 years of history -> LOW CONFIDENCE
+buffett analyze COST --min-years 4       # yfinance only supplies ~4 annual years
+
+# 3. Mid-cycle override — for a cyclical, pass your own normalized owner earnings
+buffett analyze TSM --normalized-oe 46         # $46B, used instead of the TTM recipe
+buffett analyze TSM --oe-history 40,30,55,60,45  # a cycle, averaged to the mid-point
+```
+
+A **LOW CONFIDENCE** verdict is not a comment. It subtracts a fixed penalty
+(`LOW_CONFIDENCE_MOS_PENALTY`, 10c) from every buy-zone threshold, so a shaky
+valuation has to be 10c cheaper per $1 of intrinsic value before it reads as a buy —
+and the printed price targets move down with it. It fires when the earnings history
+is shorter than `--min-years`, when earnings swing between positive and negative, or
+when a ticker in `CYCLICAL_TICKERS` is being valued on a single year. Supplying a
+mid-cycle base clears that last one.
+
+The reverse DCF (`implied_g1` in `src/financials.py`) holds g2, terminal growth, the
+discount rate and net cash fixed and bisects for the stage-1 growth rate that makes
+intrinsic value equal the price. The full report prints it per scenario, next to the
+growth each scenario assumed — the question stops being "is this cheap?" and becomes
+"is that growth rate believable?".
 
 Built in **plain Python on purpose** (no LangChain). A QA role is about understanding
 and verifying a system — a framework that hides the wiring works against that. Plain

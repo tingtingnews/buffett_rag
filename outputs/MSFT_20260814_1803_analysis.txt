@@ -1,0 +1,186 @@
+
+========================================================
+  Microsoft Corporation (MSFT) — Buffett RAG Analysis
+  2026-08-14 18:03
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  16.1%  ← high growth
+  FCF CAGR (5yr):      4.0%  ← modest growth
+  ROE:                 34.0%  ← exceptional capital efficiency
+  Net Income (TTM):    $133.7B
+  Capex (TTM):         $115.9B
+  Current Price:       $497/share
+
+  [RAG anchors Base g1 to FCF CAGR (4.0%) with haircut]
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  ────────────────────────────────────────────────────
+  BEAR CASE  (g1=6%, g2=4%, terminal=3%, discount=11%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$  133.7B
+    Depreciation & Amort:     +$   38.5B  (non-cash, add back)
+    Capital Expenditure:      -$  115.9B  (real cash out)
+    Stock Based Comp:         -$   12.4B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   43.9B
+
+    Growth Capex split:
+      Total Capex × growth%:  $115.9B × 50% = $58.0B
+      Addback (50% of growth capex):  +$29.0B
+    ············································
+    Owner Earnings (OE):      =$   72.9B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=6%):   $   318.2B
+    Stage 2  (yrs 6–10, g2=4%):   $   239.2B
+    Terminal (yr 10+, 3% forever):  $   538.3B
+    Net Cash (cash − debt):            $   -35.9B
+    ············································
+    Total Equity Value:                $  1059.8B
+
+  STEP 3 — PER SHARE
+    $1059.8B ÷ 7.43B shares = $143/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $497 ÷ IV $143 = 3.48
+    (348c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Card 5.4 warns that if the 75% growth-capex add-back fails (bear case uses 50%), IV collapses toward $103, so a higher 11% discount rate reflects the $190B/year capex uncertainty and a conservative 50% add-back assumption.
+
+  ────────────────────────────────────────────────────
+  BASE CASE  (g1=10%, g2=7%, terminal=3%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$  133.7B
+    Depreciation & Amort:     +$   38.5B  (non-cash, add back)
+    Capital Expenditure:      -$  115.9B  (real cash out)
+    Stock Based Comp:         -$   12.4B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   43.9B
+
+    Growth Capex split:
+      Total Capex × growth%:  $115.9B × 65% = $75.4B
+      Addback (65% of growth capex):  +$49.0B
+    ············································
+    Owner Earnings (OE):      =$   92.9B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=10%):   $   458.3B
+    Stage 2  (yrs 6–10, g2=7%):   $   412.8B
+    Terminal (yr 10+, 3% forever):  $  1062.0B
+    Net Cash (cash − debt):            $   -35.9B
+    ············································
+    Total Equity Value:                $  1897.3B
+
+  STEP 3 — PER SHARE
+    $1897.3B ÷ 7.43B shares = $256/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $497 ÷ IV $256 = 1.94
+    (194c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Card 5.4 anchors the base discount rate at 10.5% with a 75% growth-capex add-back as the central assumption, while g1 of 10% applies a modest haircut to the historical 16.1% revenue CAGR consistent with FCF CAGR mean-reversion toward 4–16% midpoint.
+
+  ────────────────────────────────────────────────────
+  BULL CASE  (g1=15%, g2=10%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$  133.7B
+    Depreciation & Amort:     +$   38.5B  (non-cash, add back)
+    Capital Expenditure:      -$  115.9B  (real cash out)
+    Stock Based Comp:         -$   12.4B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   43.9B
+
+    Growth Capex split:
+      Total Capex × growth%:  $115.9B × 75% = $87.0B
+      Addback (75% of growth capex):  +$65.2B
+    ············································
+    Owner Earnings (OE):      =$  109.2B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=15%):   $   616.2B
+    Stage 2  (yrs 6–10, g2=10%):   $   657.3B
+    Terminal (yr 10+, 4% forever):  $  2084.4B
+    Net Cash (cash − debt):            $   -35.9B
+    ············································
+    Total Equity Value:                $  3322.0B
+
+  STEP 3 — PER SHARE
+    $3322.0B ÷ 7.43B shares = $447/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $497 ÷ IV $447 = 1.11
+    (111c paid per $1 of intrinsic value)
+    Buy zone: DO NOT BUY
+
+  RAG reasoning: Cards 7.6 and 1.1 support the bull case: Azure RPO surging 99% YoY, AI margins expanding automatically as compute costs fall 60–70%/year, and Microsoft's widening network-effect moat justify near-historical revenue CAGR growth and the full 75% growth-capex add-back assumed in Card 5.4's base IV of $520.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$107 (75% of IV)
+    Base: ~$192 (75% of IV)
+    Bull: ~$336 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# Microsoft (MSFT) — Value Analysis at $497
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The three scenarios paint a consistent and sobering picture: **MSFT is expensive at every reasonable level of analysis.**
+
+| Scenario | Owner Earnings | Intrinsic Value | Price/IV Ratio | Zone |
+|----------|---------------|-----------------|----------------|------|
+| Bear | $72.9B | $143 | 3.48x | Consider Trimming |
+| Base | $92.9B | $256 | 1.94x | Consider Trimming |
+| Bull | $109.2B | $447 | 1.11x | Do Not Buy |
+
+The most striking data point here is this: **even in the bull case — where Azure RPO growth of 99% YoY is fully credited, AI margins expand as compute costs fall, and the full 75% growth-capex add-back is assumed — the stock still trades above its intrinsic value at $447 vs. a $497 price.** [Card 5, Bull reasoning]
+
+The base case, which uses a 10.5% discount rate and a modest haircut to the historical 16.1% revenue CAGR, produces an IV of just $256 — meaning the market is currently pricing MSFT at **nearly twice its most probable intrinsic value.** [Card 5, Base reasoning]
+
+The bear case is genuinely alarming: if the 75% growth-capex add-back assumption fails and reverts to 50%, IV collapses toward $103–$143, implying a potential **70%+ drawdown from current prices** in an adverse scenario. [Card 5, Bear reasoning]
+
+The FCF CAGR divergence is also a red flag worth flagging explicitly: while revenue has compounded at 16.1% over five years, **FCF has grown at only 4.0%.** [Card 5, Historical data] This gap — likely driven by the $190B/year capex cycle — is precisely the uncertainty that makes the growth-capex add-back assumption so consequential.
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Buffett would avoid adding at $497, and would likely consider trimming an existing position.**
+
+The margin-of-safety framework is unambiguous here [2]: the ideal buy zone requires paying **≤70 cents per $1 of intrinsic value.** Even using the most optimistic bull-case IV of $447, the current price of $497 represents paying **$1.11 for every $1 of intrinsic value** — you are *paying a premium* to own it, with no margin of safety whatsoever.
+
+At the base-case IV of $256, you are paying approximately **$1.94 per $1 of intrinsic value.** That is not a margin of safety; it is the *opposite* of one.
+
+Buffett's bridge analogy [1] makes this vivid: if the bridge holds 30 tons, you drive 10-ton trucks across it. At current prices, you would be driving a *50-ton truck* across a bridge rated for 26 tons (the bull case IV). The consequences of being wrong are severe and asymmetric.
+
+The probability-weighted expected return of approximately **7.5%** [4] — meaningfully below the MCO (~13.1%) and Visa (~11.8%) alternatives cited in the same card — further confirms this is not a compelling capital allocation decision relative to other opportunities.
+
+---
+
+## 3. What Would Need to Change for MSFT to Enter Buy Territory?
+
+For MSFT to reach the **acceptable buy zone (≤80¢ per $1 of IV)** using the base-case IV of $256, the price would need to fall to approximately **$205 or below** — a decline of roughly **59% from current levels.**
+
+For the more lenient **cautious accumulation zone (≤95¢)**, the price would need to reach approximately **$243** — still a ~51% decline.
+
+Even anchoring generously to the bull-case IV of $447, a ≤70¢ buy signal would require a price of approximately **$313** — still a ~37% decline from $497.
+
+**Alternatively**, intrinsic value itself could rise to meet the price — but this would require:
+- Sustained confirmation that the growth-capex add-back assumption holds at 75% or higher
+
+========================================================

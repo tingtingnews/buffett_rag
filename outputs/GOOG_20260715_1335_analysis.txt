@@ -1,0 +1,98 @@
+
+========================================================
+  Alphabet Inc. (GOOG) — Buffett RAG Analysis
+  2026-07-15 13:35
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  12.5%
+  FCF CAGR (5yr):      6.9%
+  ROE:                 38.9%
+  Current Price:       $357/share
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  Bear Case:
+    Owner Earnings:  $51.5B/yr
+    IV per share:    $150
+    Price/IV ratio:  2.39  (239c per $1 of value)
+    Buy zone:        CONSIDER TRIMMING
+    Assumption:      Per Card [2] (moat) and Card [3] (margin-of-safety framework), a shrinking moat scenario assumes FCF growth regresses well below the 6.9% historical FCF CAGR due to AI-driven capex intensity ($91.4B TTM) failing to convert efficiently, warranting a higher 10% discount rate to demand a wider margin of safety.
+
+  Base Case:
+    Owner Earnings:  $69.8B/yr
+    IV per share:    $260
+    Price/IV ratio:  1.37  (137c per $1 of value)
+    Buy zone:        CONSIDER TRIMMING
+    Assumption:      Per Card [3] (cents-per-dollar framework) and the historical 6.9% FCF CAGR, base g1 applies a modest haircut to 6% reflecting that massive capex ($91.4B) may weigh on near-term free cash flow conversion even as Alphabet's durable search and cloud moat (Card [2]) supports steady compounding.
+
+  Bull Case:
+    Owner Earnings:  $88.3B/yr
+    IV per share:    $476
+    Price/IV ratio:  0.75  (75c per $1 of value)
+    Buy zone:        ACCEPTABLE
+    Assumption:      Per Card [2] (widening moat via network effects, brand, and scale) and Card [1] (owner earnings), the bull case assumes AI investments begin yielding high-return growth capex, pushing FCF growth toward the stronger 12.5% revenue CAGR trajectory as Google's moat demonstrably widens across Search, Cloud, and YouTube.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$112 (75% of IV)
+    Base: ~$195 (75% of IV)
+    Bull: ~$357 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# Alphabet Inc. (GOOG) — Value-Investing Scenario Analysis
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The scenario spread reveals a stock that is **priced for perfection in its base case and significantly overvalued in its bear case**, with only the most optimistic outcome justifying the current price.
+
+| Scenario | IV | Price/IV Ratio | Zone |
+|---|---|---|---|
+| Bear | $150 | 2.39x | Consider Trimming |
+| Base | $260 | 1.37x | Consider Trimming |
+| Bull | $476 | 0.75x | Acceptable |
+
+The critical observation: **at $357, you need the bull case to simply break even on margin of safety**. Even there, per Card [2], a 0.75x ratio (75¢ per $1 of intrinsic value) sits at the outer edge of the "good" zone — not a screaming buy. In both the bear and base scenarios, the market is already pricing in more than $1 of value for every dollar paid, meaning **there is no margin of safety in two of three plausible futures** [1][2].
+
+The wide gap between the bear IV ($150) and bull IV ($476) — a 3.2x spread — signals **genuine fundamental uncertainty**, driven primarily by whether Alphabet's $91.4B TTM capex converts into high-return AI-driven growth or becomes a drag on owner earnings [1]. The 6.9% historical FCF CAGR lagging well behind the 12.5% revenue CAGR already suggests **capital intensity is compressing free cash flow conversion** — a real risk that the base and bear cases rightfully penalize.
+
+The ROE of 38.9% confirms the underlying business quality is exceptional. The moat — search network effects, brand, cloud scale, YouTube — is real and durable [3][5]. **The problem is not the business. The problem is the price.**
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Buffett would not buy at $357. Most likely he would hold an existing position cautiously, but would not add.**
+
+Here is the reasoning, drawn directly from the framework:
+
+Per Card [1], the margin of safety principle requires buying *meaningfully below* intrinsic value so that even an imperfect estimate leaves you protected from permanent loss. At current prices, you are paying **1.37x the base intrinsic value** — you are not driving a 10-ton truck across a 30-ton bridge; you are driving a 48-ton truck across it.
+
+Per Card [2], the cents-per-dollar framework is explicit: a ratio above 95¢–100¢ means "hold, do not add," and above 100¢ signals overvaluation. At 1.37x in the base case, Alphabet sits **well into territory where the framework says do not add**.
+
+Only in the bull scenario does the ratio (0.75x) reach the "acceptable" zone. But Buffett and Munger have consistently warned against anchoring to optimistic cases. Paying full bull-case prices while bearing bear-case risk is precisely the asymmetry disciplined value investors avoid [1][2].
+
+The 38.9% ROE and durable moat [3][5] would earn Buffett's admiration for the *business*. But admiring a business and buying its stock at any price are two very different things — a distinction Buffett has made explicitly throughout his career.
+
+> **Verdict: Do not buy. Do not add. Hold only if already owned with a lower cost basis.**
+
+---
+
+## 3. What Would Need to Change to Enter Buy Territory
+
+For Alphabet to enter **buy territory** (≤80¢ per $1 of intrinsic value per Card [2]), one or more of the following would need to occur:
+
+### A. Price Must Fall to the Business
+- **Base case buy target:** ≤80% × $260 = **≤$208**
+- **Bull case buy target:** ≤80% × $476 = **≤$381** *(barely below current price, and only if you accept the bull case)*
+- A correction of **~15–40%** from current levels would be required depending on which scenario you weight most heavily
+
+### B. Intrinsic Value Must Rise to the Price
+- Owner earnings would need to expand materially — meaning the $91.4B capex cycle must demonst
+
+========================================================

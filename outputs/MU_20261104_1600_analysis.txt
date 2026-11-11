@@ -1,0 +1,191 @@
+
+========================================================
+  Micron Technology, Inc. (MU) — Buffett RAG Analysis
+  2026-11-04 16:00
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  104.6%  ← very high growth
+  FCF CAGR (5yr):      2107.5%  ← very high growth
+  ROE:                 88.3%  ← exceptional capital efficiency
+  Net Income (TTM):    $85.0B
+  Capex (TTM):         $30.7B
+  Current Price:       $855/share
+
+  [RAG anchors Base g1 to FCF CAGR (2107.5%) with haircut]
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  ────────────────────────────────────────────────────
+  BEAR CASE  (g1=8%, g2=4%, terminal=3%, discount=12%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   85.0B
+    Depreciation & Amort:     +$    9.5B  (non-cash, add back)
+    Capital Expenditure:      -$   30.7B  (real cash out)
+    Stock Based Comp:         -$    1.3B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   62.4B
+
+    Growth Capex split:
+      Total Capex × growth%:  $30.7B × 50% = $15.4B
+      Addback (40% of growth capex):  +$6.1B
+    ············································
+    Owner Earnings (OE):      =$   68.6B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=8%):   $   307.8B
+    Stage 2  (yrs 6–10, g2=4%):   $   230.1B
+    Terminal (yr 10+, 3% forever):  $   451.7B
+    Net Cash (cash − debt):            $    33.2B
+    ············································
+    Total Equity Value:                $  1022.8B
+
+  STEP 3 — PER SHARE
+    $1022.8B ÷ 1.13B shares = $904/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $855 ÷ IV $904 = 0.95
+    (95c paid per $1 of intrinsic value)
+    Buy zone: ACCUMULATE CAUTIOUSLY
+
+  RAG reasoning: Card 2.1 (margin of safety) demands a higher discount rate and conservative capex add-back given Micron's cyclical memory business lacks a durable moat, risking permanent capital loss if the cycle turns.
+
+  ────────────────────────────────────────────────────
+  BASE CASE  (g1=15%, g2=8%, terminal=3%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   85.0B
+    Depreciation & Amort:     +$    9.5B  (non-cash, add back)
+    Capital Expenditure:      -$   30.7B  (real cash out)
+    Stock Based Comp:         -$    1.3B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   62.4B
+
+    Growth Capex split:
+      Total Capex × growth%:  $30.7B × 60% = $18.4B
+      Addback (60% of growth capex):  +$11.1B
+    ············································
+    Owner Earnings (OE):      =$   73.5B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=15%):   $   420.7B
+    Stage 2  (yrs 6–10, g2=8%):   $   434.4B
+    Terminal (yr 10+, 3% forever):  $  1232.0B
+    Net Cash (cash − debt):            $    33.2B
+    ············································
+    Total Equity Value:                $  2120.3B
+
+  STEP 3 — PER SHARE
+    $2120.3B ÷ 1.13B shares = $1,874/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $855 ÷ IV $1,874 = 0.46
+    (46c paid per $1 of intrinsic value)
+    Buy zone: IDEAL
+
+  RAG reasoning: Card 5.4 (MSFT capex uncertainty framework) informs a moderate 60% growth-capex add-back and haircut to historical FCF CAGR, acknowledging that Micron's $30.7B capex intensity creates meaningful IV sensitivity similar to the MSFT capex-collapse risk noted therein.
+
+  ────────────────────────────────────────────────────
+  BULL CASE  (g1=22%, g2=12%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   85.0B
+    Depreciation & Amort:     +$    9.5B  (non-cash, add back)
+    Capital Expenditure:      -$   30.7B  (real cash out)
+    Stock Based Comp:         -$    1.3B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   62.4B
+
+    Growth Capex split:
+      Total Capex × growth%:  $30.7B × 75% = $23.0B
+      Addback (70% of growth capex):  +$16.1B
+    ············································
+    Owner Earnings (OE):      =$   78.6B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=22%):   $   541.6B
+    Stage 2  (yrs 6–10, g2=12%):   $   695.9B
+    Terminal (yr 10+, 4% forever):  $  2500.3B
+    Net Cash (cash − debt):            $    33.2B
+    ············································
+    Total Equity Value:                $  3771.0B
+
+  STEP 3 — PER SHARE
+    $3771.0B ÷ 1.13B shares = $3,333/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $855 ÷ IV $3,333 = 0.26
+    (26c paid per $1 of intrinsic value)
+    Buy zone: IDEAL
+
+  RAG reasoning: Card 1.1 (moat widening) supports a bull case where Micron's AI-driven HBM memory position represents a widening scale and switching-cost moat, justifying near-historical peak growth and a higher capex add-back as growth capex converts to durable earnings power.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$678 (75% of IV)
+    Base: ~$1,405 (75% of IV)
+    Bull: ~$2,500 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# Micron Technology (MU) — Value Analysis at $855
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The scenario spread here is unusually wide, which is itself diagnostic information.
+
+**Bear ($904 IV, 0.95 ratio):** At nearly fair value in the worst case, Micron offers almost no cushion if the memory cycle turns down. As card [1] reminds us — if you think the bridge holds 30 tons, only drive 10-ton trucks across it. In the bear case, you're driving a 29-ton truck.
+
+**Base ($1,874 IV, 0.46 ratio):** This looks compelling on paper — buying at 46 cents on the dollar sits firmly in the "ideal" zone per card [2]. But the reasoning itself flags a critical caveat: $30.7B in capex intensity creates enormous sensitivity in the intrinsic value calculation. Small assumption changes produce dramatically different outputs.
+
+**Bull ($3,333 IV, 0.26 ratio):** Extraordinary apparent value, contingent on HBM memory becoming a genuine, widening moat per card [4]. That is a significant "if."
+
+**The core problem:** A $904–$3,333 intrinsic value range on a single stock is not a valuation — it is an admission of deep uncertainty. When your bear IV and your bull IV differ by 3.7x, your model is telling you that you don't yet understand the business well enough to price it confidently.
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Avoid adding at current price. Hold only if already owned with conviction.**
+
+Here is the reasoning:
+
+**Moat is contested.** Card [4] defines a moat as a *durable* competitive advantage that is *widening over time*. Commodity memory — DRAM and NAND — has historically been the opposite of a moat business. It is capital-intensive, cyclical, and subject to pricing collapses when supply exceeds demand. The bull case argues HBM changes this, but that thesis is unproven and dependent on AI capex remaining elevated.
+
+**The bear case offers no margin of safety.** Card [1] is unambiguous: you buy when price is *meaningfully less* than intrinsic value so that even a wrong estimate doesn't cause permanent loss. At $855 versus a bear IV of $904, a modest deterioration in conditions produces a ratio above 1.00 — meaning you are paying full price for a cyclical business with no moat protection. Card [2] is equally clear: above 95 cents per dollar, you hold and do not add.
+
+**The FCF CAGR of 2,107% over 5 years is a red flag, not a green light.** Numbers that extreme signal that you are measuring from a trough. Buffett explicitly distrusts extrapolating cyclical peak earnings, and this data should be treated with significant skepticism as a forward indicator.
+
+**ROE of 88.3%** is impressive but must be evaluated in context — semiconductor upcycles routinely produce temporarily extraordinary returns on equity that collapse when pricing turns.
+
+---
+
+## 3. What Would Need to Change for a Buy Signal
+
+Three things would need to happen simultaneously:
+
+1. **Price correction into genuine margin-of-safety territory.** Per card [2], the ideal zone is ≤70 cents per dollar of *bear-case* intrinsic value. That implies a price closer to **$630 or below** against the $904 bear IV — roughly a 26% decline from current levels.
+
+2. **Evidence of moat durability.** Card [4] requires a moat that is *widening*, not merely alleged. Sustained HBM market share, pricing power through a down-cycle, and customer switching costs becoming demonstrably high would begin to satisfy this test.
+
+3. **Capex clarity.** The base-case reasoning flags that $30.7B capex intensity creates IV sensitivity comparable to the MSFT capex-uncertainty framework. Until it becomes clear what proportion of that capex is genuinely growth-generating versus maintenance, the owner-earnings calculation remains unreliable.
+
+---
+
+## Summary Verdict
+
+| Scenario | IV | Price/IV | Zone |
+|---|---|---|---|
+| Bear | $904 | 0.95 | Accumulate Cautiously |
+| Base | $1,874 | 0.46 | Ideal |
+| Bull | $3,333 | 0.
+
+========================================================

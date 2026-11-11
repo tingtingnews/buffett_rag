@@ -1,0 +1,191 @@
+
+========================================================
+  Reddit, Inc. (RDDT) — Buffett RAG Analysis
+  2026-11-04 16:04
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  48.9%  ← very high growth
+  FCF CAGR (5yr):      217.0%  ← very high growth
+  ROE:                 32.0%  ← exceptional capital efficiency
+  Net Income (TTM):    $0.5B
+  Capex (TTM):         $0.0B
+  Current Price:       $96/share
+
+  [RAG anchors Base g1 to FCF CAGR (217.0%) with haircut]
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  ────────────────────────────────────────────────────
+  BEAR CASE  (g1=8%, g2=4%, terminal=3%, discount=12%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$    0.5B
+    Depreciation & Amort:     +$    0.0B  (non-cash, add back)
+    Capital Expenditure:      -$    0.0B  (real cash out)
+    Stock Based Comp:         -$    0.3B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$    0.2B
+
+    Growth Capex split:
+      Total Capex × growth%:  $0.0B × 30% = $0.0B
+      Addback (30% of growth capex):  +$0.0B
+    ············································
+    Owner Earnings (OE):      =$    0.2B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=8%):   $     0.9B
+    Stage 2  (yrs 6–10, g2=4%):   $     0.7B
+    Terminal (yr 10+, 3% forever):  $     1.3B
+    Net Cash (cash − debt):            $     0.9B
+    ············································
+    Total Equity Value:                $     3.8B
+
+  STEP 3 — PER SHARE
+    $3.8B ÷ 0.15B shares = $26/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $96 ÷ IV $26 = 3.75
+    (375c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Per card 2.1 (margin of safety), a higher 12% discount rate is applied to reflect uncertainty in Reddit's young monetization model and the risk of permanent loss if the 217% FCF CAGR — driven by a near-zero capex base — mean-reverts sharply, with minimal growth-capex add-back given negligible historical capex reliability.
+
+  ────────────────────────────────────────────────────
+  BASE CASE  (g1=18%, g2=9%, terminal=3%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$    0.5B
+    Depreciation & Amort:     +$    0.0B  (non-cash, add back)
+    Capital Expenditure:      -$    0.0B  (real cash out)
+    Stock Based Comp:         -$    0.3B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$    0.2B
+
+    Growth Capex split:
+      Total Capex × growth%:  $0.0B × 50% = $0.0B
+      Addback (50% of growth capex):  +$0.0B
+    ············································
+    Owner Earnings (OE):      =$    0.2B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=18%):   $     1.2B
+    Stage 2  (yrs 6–10, g2=9%):   $     1.4B
+    Terminal (yr 10+, 3% forever):  $     3.9B
+    Net Cash (cash − debt):            $     0.9B
+    ············································
+    Total Equity Value:                $     7.5B
+
+  STEP 3 — PER SHARE
+    $7.5B ÷ 0.15B shares = $51/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $96 ÷ IV $51 = 1.89
+    (189c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Per card 3.4 (cents-per-dollar framework), g1 applies a meaningful haircut to Reddit's 217% FCF CAGR while still reflecting the strong 48.9% revenue CAGR and 32% ROE, with a standard 10% discount rate and moderate add-back given the asset-light model (near-zero capex TTM).
+
+  ────────────────────────────────────────────────────
+  BULL CASE  (g1=30%, g2=15%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$    0.5B
+    Depreciation & Amort:     +$    0.0B  (non-cash, add back)
+    Capital Expenditure:      -$    0.0B  (real cash out)
+    Stock Based Comp:         -$    0.3B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$    0.2B
+
+    Growth Capex split:
+      Total Capex × growth%:  $0.0B × 65% = $0.0B
+      Addback (65% of growth capex):  +$0.0B
+    ············································
+    Owner Earnings (OE):      =$    0.2B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=30%):   $     1.7B
+    Stage 2  (yrs 6–10, g2=15%):   $     2.6B
+    Terminal (yr 10+, 4% forever):  $     9.9B
+    Net Cash (cash − debt):            $     0.9B
+    ············································
+    Total Equity Value:                $    15.1B
+
+  STEP 3 — PER SHARE
+    $15.1B ÷ 0.15B shares = $103/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $96 ÷ IV $103 = 0.93
+    (93c paid per $1 of intrinsic value)
+    Buy zone: ACCUMULATE CAUTIOUSLY
+
+  RAG reasoning: Per card 1.1 (moat — network effects and switching costs), Reddit's unique user-generated content corpus and community network effects represent a widening moat, justifying near-historical peak growth rates approaching the 48.9% revenue CAGR with a higher terminal rate and generous add-back given the structurally low capex intensity.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$19 (75% of IV)
+    Base: ~$38 (75% of IV)
+    Bull: ~$77 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# Reddit, Inc. (RDDT) — Value Analysis
+
+## 1. What the Three Scenarios Tell Us
+
+The scenario spread is wide and deeply instructive. At $96:
+
+| Scenario | Intrinsic Value | Price/IV | Zone |
+|----------|----------------|----------|------|
+| Bear | $26 | 3.75x | Trim |
+| Base | $51 | 1.89x | Trim |
+| Bull | $103 | 0.93x | Accumulate Cautiously |
+
+**The market is essentially pricing in the bull case as the base case.** Only under the most optimistic assumptions — where Reddit's network effects [3] continue compounding and near-historical growth rates persist — does the stock approach fair value at a 0.93x ratio. Even then, that only reaches "Accumulate Cautiously" territory, not a genuine buy signal.
+
+The 217% FCF CAGR is real but dangerously misleading as a forward input. It is almost certainly a low-base, early-monetization artifact. The bear case is right to flag mean-reversion risk explicitly [1].
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Avoid at current price. Almost certainly.**
+
+Here is the reasoning, card by card:
+
+**On margin of safety [1][2]:** The bridge analogy is clarifying here. Even if you believe Reddit's 32% ROE and revenue momentum are durable, you are paying $96 for something worth $51 in a reasonable base case. That is not buying at a discount — that is paying *nearly twice intrinsic value*. Card [2] is unambiguous: a price-to-IV ratio above 1.00 means do not buy. At 1.89x in the base case, the stock sits far outside every buy zone in the cents-per-dollar framework.
+
+**On intrinsic value [5]:** Intrinsic value is a range, not a point. When *all three* scenarios — bear, base, and bull — cluster between $26 and $103, the honest takeaway is that uncertainty is enormous. Card [5] warns that two analysts with the same facts will reach different values. Here, the range is nearly 4:1 from bottom to top. That spread itself is a risk signal, not a reason to anchor to the high end.
+
+**On the moat [3][4]:** Reddit's network effects and user-generated content corpus are real moat sources. The community lock-in and unique data corpus (valuable for AI licensing) are legitimate competitive advantages. Buffett would respect this. But a real moat at the wrong price is still a bad investment. Buffett has explicitly said he would rather buy a wonderful company at a fair price than a fair company at a wonderful price — but $96 against a base IV of $51 is not a fair price for even a wonderful business.
+
+---
+
+## 3. What Would Need to Change for a Buy Signal
+
+Per card [2], the ideal entry zone is ≤70¢ per $1 of intrinsic value. Working backward from the base case IV of $51:
+
+> **Target buy price ≤ $36 (70¢ × $51)**
+> Acceptable entry ≤ $41 (80¢ × $51)
+
+For the stock to enter buy territory without a price decline, the base case IV itself would need to rise materially — which would require:
+
+1. **Sustained revenue growth** validating the 48.9% CAGR as durable, not cyclical
+2. **FCF conversion maturing** — the 217% FCF CAGR normalizing at a still-high but credible level
+3. **Demonstrated moat widening** [3] — evidence that ad pricing power and data licensing revenues are compounding, not one-time
+4. **Reduced execution risk** — a longer track record of profitability that justifies compressing the discount rate used in the bear case [1]
+
+None of these are impossible. Reddit is a genuinely interesting business. But at today's price, the market has already priced in the optimistic version of that future.
+
+---
+
+## Summary Verdict
+
+> Reddit has a credible moat [3], impressive historical growth metrics, and a structurally asset-light model. But at $96, even the bull case barely justifies the price at a 0.93x ratio [2], and the base and bear cases imply significant overvaluation. The margin of safety is not
+
+========================================================

@@ -1,0 +1,192 @@
+
+========================================================
+  TSM (TSM) — Buffett RAG Analysis
+  2026-08-14 18:32
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  20.0%  ← very high growth
+  FCF CAGR (5yr):      20.0%  ← very high growth
+  ROE:                 30.0%  ← exceptional capital efficiency
+  Net Income (TTM):    $50.7B
+  Capex (TTM):         $54.0B
+  Current Price:       $430/share
+
+  [RAG anchors Base g1 to FCF CAGR (20.0%) with haircut]
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  ────────────────────────────────────────────────────
+  BEAR CASE  (g1=15%, g2=9%, terminal=3%, discount=12%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   50.7B
+    Depreciation & Amort:     +$   48.0B  (non-cash, add back)
+    Capital Expenditure:      -$   54.0B  (real cash out)
+    Stock Based Comp:         -$    0.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   44.7B
+
+    Growth Capex split:
+      Total Capex × growth%:  $54.0B × 100% = $54.0B
+      Addback (50% of growth capex):  +$27.0B
+    ············································
+    Owner Earnings (OE):      =$   71.7B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=15%):   $   388.4B
+    Stage 2  (yrs 6–10, g2=9%):   $   377.4B
+    Terminal (yr 10+, 3% forever):  $   817.6B
+    Net Cash (cash − debt):            $    73.0B
+    ············································
+    Total Equity Value:                $  1656.4B
+
+  STEP 3 — PER SHARE
+    $1656.4B ÷ 5.19B shares = $319/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $430 ÷ IV $319 = 1.35
+    (135c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Conservative: growth haircut, higher discount, lower add-back.
+
+  ────────────────────────────────────────────────────
+  BASE CASE  (g1=20%, g2=12%, terminal=4%, discount=11%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   50.7B
+    Depreciation & Amort:     +$   48.0B  (non-cash, add back)
+    Capital Expenditure:      -$   54.0B  (real cash out)
+    Stock Based Comp:         -$    0.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   44.7B
+
+    Growth Capex split:
+      Total Capex × growth%:  $54.0B × 100% = $54.0B
+      Addback (75% of growth capex):  +$40.5B
+    ············································
+    Owner Earnings (OE):      =$   85.2B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=20%):   $   541.5B
+    Stage 2  (yrs 6–10, g2=12%):   $   646.3B
+    Terminal (yr 10+, 4% forever):  $  1955.0B
+    Net Cash (cash − debt):            $    73.0B
+    ············································
+    Total Equity Value:                $  3215.8B
+
+  STEP 3 — PER SHARE
+    $3215.8B ÷ 5.19B shares = $620/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $430 ÷ IV $620 = 0.69
+    (69c paid per $1 of intrinsic value)
+    Buy zone: IDEAL
+
+  RAG reasoning: Canonical calibrated assumptions for TSM (your method).
+
+  ────────────────────────────────────────────────────
+  BULL CASE  (g1=22%, g2=13%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$   50.7B
+    Depreciation & Amort:     +$   48.0B  (non-cash, add back)
+    Capital Expenditure:      -$   54.0B  (real cash out)
+    Stock Based Comp:         -$    0.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$   44.7B
+
+    Growth Capex split:
+      Total Capex × growth%:  $54.0B × 100% = $54.0B
+      Addback (75% of growth capex):  +$40.5B
+    ············································
+    Owner Earnings (OE):      =$   85.2B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=22%):   $   579.0B
+    Stage 2  (yrs 6–10, g2=13%):   $   747.8B
+    Terminal (yr 10+, 4% forever):  $  2501.1B
+    Net Cash (cash − debt):            $    73.0B
+    ············································
+    Total Equity Value:                $  3900.8B
+
+  STEP 3 — PER SHARE
+    $3900.8B ÷ 5.19B shares = $752/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $430 ÷ IV $752 = 0.57
+    (57c paid per $1 of intrinsic value)
+    Buy zone: IDEAL
+
+  RAG reasoning: Optimistic: growth sustains near recent pace.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$240 (75% of IV)
+    Base: ~$465 (75% of IV)
+    Bull: ~$564 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# TSMC (TSM) — Three-Scenario Analysis
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The scenario spread reveals a stock where **the base and bull cases are compelling but the bear case demands respect**.
+
+| Scenario | Owner Earnings | IV | Price/IV | Zone |
+|---|---|---|---|---|
+| Bear | $71.7B | $319 | 1.35x | Consider Trimming |
+| Base | $85.2B | $620 | 0.69x | **IDEAL** |
+| Bull | $85.2B | $752 | 0.57x | **IDEAL** |
+
+The 2-to-1 split tells a clear story: **if your base assumptions hold, TSMC at $430 is genuinely cheap.** At 69¢ per $1 of intrinsic value, it sits squarely in the "buy aggressively" zone defined in the framework [2]. The bull case at 57¢ is even more attractive.
+
+However, the bear case at $319 IV — where price exceeds intrinsic value by 35% — is not a fringe scenario to dismiss. It reflects what happens when you apply a growth haircut and a higher discount rate to a business with **real geopolitical concentration risk** (one island, one fab network). The 11% discount rate used in the base case is already the *highest in the portfolio*, signaling that this risk is explicitly priced into the thinking [4].
+
+The 20% historical revenue and FCF CAGR over five years, combined with 30% ROE, provides strong empirical support for the base case assumptions. These are not wishful numbers — they are documented performance [5].
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid at $430?
+
+**Buffett would most likely buy a measured position, not avoid — but not bet the farm either.**
+
+Here is the reasoning:
+
+The margin of safety principle requires buying *meaningfully below* intrinsic value so that even if your estimate is somewhat wrong, you are protected from permanent loss [1]. In the base case, TSMC at $430 offers a **31% margin of safety** — well inside the ≤70¢ ideal threshold [2]. That is not a thin margin; that is a genuine cushion.
+
+TSMC also has the characteristics Buffett prizes: an irreplaceable moat (≈90% of advanced chip manufacturing), pricing power embedded in customer dependency, and a natural "arms dealer" position that benefits regardless of which chip designer wins the AI race [4]. Nvidia, Apple, AMD, Broadcom — they all need TSMC. That is a durable competitive advantage.
+
+**The hesitation** comes from the bear case. Buffett's bridge analogy is instructive [1]: if the bear case IV is $319 and current price is $430, a deterioration in assumptions does not just shrink your return — it produces a real loss. For Buffett, geopolitical risk (Taiwan Strait) is not easily modeled in a DCF, and he has historically avoided businesses where a single exogenous event could impair the entire asset base.
+
+**Verdict: Buy at current price, but sized appropriately for the geopolitical tail risk. Not a maximum-conviction position unless the bear case improves.**
+
+---
+
+## 3. What Would Need to Change to Enter Stronger Buy Territory?
+
+Two paths exist:
+
+**A. Price declines toward the bear/base midpoint (~$350–370)**
+At ~$350, even the bear case IV of $319 represents only a modest overpay, while the base case margin of safety widens to ~44%. That risk/reward would justify a more aggressive position under the ≤70¢ framework [2].
+
+**B. Bear case assumptions improve**
+The bear case is driven by a growth haircut and higher discount rate [5]. If TSMC demonstrates sustained capex execution, geographic diversification (Arizona fabs ramping), and geopolitical de-escalation, a higher bear-case floor would be warranted. That would compress the scenario spread and increase conviction.
+
+**C. Nothing needs to change for a base-case buyer**
+At 69¢ on the dollar today [2], a disciplined investor comfortable with the base assumptions already has a buy signal. The question is position sizing, not whether to own it at all.
+
+---
+
+*Sources used: [1] Margin of safety principle, [2] Cents-per-dollar framework, [4] TSM
+
+========================================================

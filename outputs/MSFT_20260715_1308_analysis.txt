@@ -1,0 +1,100 @@
+
+========================================================
+  Microsoft Corporation (MSFT) — Buffett RAG Analysis
+  2026-07-15 13:08
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  12.4%
+  FCF CAGR (5yr):      3.2%
+  ROE:                 34.0%
+  Current Price:       $385/share
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  Bear Case:
+    Owner Earnings:  $75.6B/yr
+    IV per share:    $149
+    Price/IV ratio:  2.59  (259c per $1 of value)
+    Buy zone:        CONSIDER TRIMMING
+    Assumption:      Card 5.4 warns that if the growth-capex add-back fails 50%, IV collapses toward $103, so the bear case uses a 50% add-back, a higher 11% discount rate reflecting $190B/year capex uncertainty, and FCF growth well below the 3.2% historical FCF CAGR to model regression toward mean.
+
+  Base Case:
+    Owner Earnings:  $86.7B/yr
+    IV per share:    $239
+    Price/IV ratio:  1.61  (161c per $1 of value)
+    Buy zone:        CONSIDER TRIMMING
+    Assumption:      Card 5.4 anchors the base case at a 10.5% discount rate with a ~75% growth-capex add-back slightly haircut to 65%, while g1 of 10% applies a modest haircut to the 12.4% revenue CAGR to reflect the divergence between revenue and the weaker 3.2% FCF CAGR.
+
+  Bull Case:
+    Owner Earnings:  $95.8B/yr
+    IV per share:    $473
+    Price/IV ratio:  0.81  (81c per $1 of value)
+    Buy zone:        ACCUMULATE CAUTIOUSLY
+    Assumption:      Cards 7.6 and 1.1 support the bull case: Azure RPO +99% YoY, AI margins expanding as compute costs fall 60-70%/year, and Microsoft's widening moat via network effects and switching costs justify near-peak 15% growth, the full 75% capex add-back from Card 5.4, and a slightly lower discount rate.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$112 (75% of IV)
+    Base: ~$179 (75% of IV)
+    Bull: ~$355 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# Microsoft (MSFT) — Value Analysis at $385
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The three scenarios paint a consistently cautious picture, with meaningful spread in outcomes:
+
+| Scenario | Owner Earnings | Intrinsic Value | Price/IV | Zone |
+|---|---|---|---|---|
+| Bear | $75.6B | $149 | 2.59x | Consider Trimming |
+| Base | $86.7B | $239 | 1.61x | Consider Trimming |
+| Bull | $95.8B | $473 | 0.81x | Accumulate Cautiously |
+
+**The critical takeaway:** At $385, you are paying full price for the bull case and a significant premium to both the bear and base cases. The only scenario where $385 is even remotely justifiable is the bull case — and even there, you're paying 81¢ per $1 of intrinsic value, which per the framework [2] sits in the "accumulate cautiously" zone, not a confident buy signal.
+
+The **wide dispersion** between bear ($149) and bull ($473) is itself a warning. It reflects genuine uncertainty around two variables called out explicitly in the scenario reasoning:
+
+- Whether the **growth-capex add-back assumption holds** (Card 5.4 warns IV collapses toward ~$103 if the add-back fails by 50%)
+- Whether **$190B/year in capex** translates into durable earnings power or becomes a permanent drag
+
+The **FCF CAGR of 3.2% versus revenue CAGR of 12.4%** is a glaring divergence that the base case explicitly haircuts for. Revenue growth without corresponding free cash flow growth is a red flag in the owner-earnings framework — you are buying *reported* growth, not *owner* growth.
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Verdict: Hold existing positions. Do not add. Do not initiate a new position.**
+
+Here is the reasoning grounded in the cards:
+
+**On margin of safety [1][2]:** Buffett's foundational principle — borrowed from Graham — is that you only drive a 10-ton truck across a 30-ton bridge. At $385, the base case intrinsic value is $239. You are not driving a 10-ton truck. You are driving a 385-ton truck across a 239-ton bridge. That is not a margin of safety — that is paying for perfection.
+
+Per the cents-per-dollar framework [2]:
+- Bear case: paying **$2.59 per $1 of value** — deeply overvalued
+- Base case: paying **$1.61 per $1 of value** — overvalued
+- Bull case: paying **$0.81 per $1 of value** — only here does it approach the "accumulate cautiously" threshold
+
+For a *new* position, Buffett would demand ≤80¢ on the **base case**, not merely on the bull case. At $385, you must be right about the bull case *just to get to acceptable*. That is not how value investing works.
+
+**On the probability-weighted expected return [4]:** MSFT's expected return as documented is approximately **7.5%** — the lowest of the three stocks cited (MCO ≈ 13.1%, V ≈ 11.8%). Even after the $627B RPO confirmation raised the base-case probability, the expected return remains modest. Buffett has repeatedly stated he needs a compelling reason to deploy capital at lower expected returns when alternatives exist.
+
+**On the moat [Card 5, the scenario data]:** The bull case acknowledges Azure RPO growth of +99% YoY and AI margins expanding as compute costs fall 60–70%/year. The moat is real — network effects, switching costs, and enterprise entrenchment are genuine. But **a great business at a bad price is still a bad investment.** Buffett has said this many times, most famously about his early Berkshire textile mistake.
+
+---
+
+## 3. What Would Need to Change for MSFT to Enter Buy Territory?
+
+For MSFT to reach **ideal buy territory (≤70¢ on base case)** [2], the stock would need to trade at approximately:
+
+> **$167** (70% × $239 base-case IV)
+
+For the more realistic **"acceptable" threshold (
+
+========================================================

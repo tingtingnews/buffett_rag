@@ -1,0 +1,198 @@
+
+========================================================
+  MSFT (MSFT) — Buffett RAG Analysis
+  2026-08-14 18:30
+========================================================
+
+HISTORICAL CONTEXT
+  Revenue CAGR (5yr):  15.0%  ← high growth
+  FCF CAGR (5yr):      15.0%  ← high growth
+  ROE:                 30.0%  ← exceptional capital efficiency
+  Net Income (TTM):    $127.0B
+  Capex (TTM):         $190.0B
+  Current Price:       $497/share
+
+  [RAG anchors Base g1 to FCF CAGR (15.0%) with haircut]
+
+THREE-SCENARIO INTRINSIC VALUE
+--------------------------------------------------------
+  ────────────────────────────────────────────────────
+  BEAR CASE  (g1=10%, g2=7%, terminal=2%, discount=12%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$  127.0B
+    Depreciation & Amort:     +$   45.0B  (non-cash, add back)
+    Capital Expenditure:      -$  190.0B  (real cash out)
+    Stock Based Comp:         -$   13.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$  -31.0B
+
+    Growth Capex split:
+      Total Capex × growth%:  $190.0B × 100% = $190.0B
+      Addback (50% of growth capex):  +$95.0B
+    ············································
+    Owner Earnings (OE):      =$   64.0B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=10%):   $   307.3B
+    Stage 2  (yrs 6–10, g2=7%):   $   264.7B
+    Terminal (yr 10+, 2% forever):  $   554.4B
+    Net Cash (cash − debt):            $    37.0B
+    ············································
+    Total Equity Value:                $  1163.4B
+
+  STEP 3 — PER SHARE
+    $1163.4B ÷ 7.43B shares = $157/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $497 ÷ IV $157 = 3.17
+    (317c paid per $1 of intrinsic value)
+    Buy zone: CONSIDER TRIMMING
+
+  RAG reasoning: Conservative: growth haircut, higher discount, lower add-back.
+
+  ────────────────────────────────────────────────────
+  BASE CASE  (g1=15%, g2=10%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$  127.0B
+    Depreciation & Amort:     +$   45.0B  (non-cash, add back)
+    Capital Expenditure:      -$  190.0B  (real cash out)
+    Stock Based Comp:         -$   13.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$  -31.0B
+
+    Growth Capex split:
+      Total Capex × growth%:  $190.0B × 100% = $190.0B
+      Addback (75% of growth capex):  +$142.5B
+    ············································
+    Owner Earnings (OE):      =$  111.5B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=15%):   $   629.4B
+    Stage 2  (yrs 6–10, g2=10%):   $   671.5B
+    Terminal (yr 10+, 4% forever):  $  1967.6B
+    Net Cash (cash − debt):            $    37.0B
+    ············································
+    Total Equity Value:                $  3305.5B
+
+  STEP 3 — PER SHARE
+    $3305.5B ÷ 7.43B shares = $445/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $497 ÷ IV $445 = 1.12
+    (112c paid per $1 of intrinsic value)
+    Buy zone: DO NOT BUY
+
+  RAG reasoning: Canonical calibrated assumptions for MSFT (your method).
+
+  ────────────────────────────────────────────────────
+  BULL CASE  (g1=17%, g2=11%, terminal=4%, discount=10%)
+  ────────────────────────────────────────────────────
+
+  STEP 1 — OWNER EARNINGS
+    Net Income:               +$  127.0B
+    Depreciation & Amort:     +$   45.0B  (non-cash, add back)
+    Capital Expenditure:      -$  190.0B  (real cash out)
+    Stock Based Comp:         -$   13.0B  (real cost to shareholders)
+    ············································
+    Free Cash Flow (FCF):     =$  -31.0B
+
+    Growth Capex split:
+      Total Capex × growth%:  $190.0B × 100% = $190.0B
+      Addback (75% of growth capex):  +$142.5B
+    ············································
+    Owner Earnings (OE):      =$  111.5B
+
+  STEP 2 — DCF: PRESENT VALUE OF FUTURE CASH FLOWS
+    Stage 1  (yrs 1–5,  g1=17%):   $   673.4B
+    Stage 2  (yrs 6–10, g2=11%):   $   779.9B
+    Terminal (yr 10+, 4% forever):  $  2528.8B
+    Net Cash (cash − debt):            $    37.0B
+    ············································
+    Total Equity Value:                $  4019.1B
+
+  STEP 3 — PER SHARE
+    $4019.1B ÷ 7.43B shares = $541/share
+
+  STEP 4 — MARGIN OF SAFETY
+    Price $497 ÷ IV $541 = 0.92
+    (92c paid per $1 of intrinsic value)
+    Buy zone: ACCUMULATE CAUTIOUSLY
+
+  RAG reasoning: Optimistic: growth sustains near recent pace.
+
+--------------------------------------------------------
+  Price must fall to these levels to enter buy zone:
+    Bear: ~$117 (75% of IV)
+    Base: ~$334 (75% of IV)
+    Bull: ~$406 (75% of IV)
+
+========================================================
+BUFFETT RAG VERDICT
+========================================================
+
+# MSFT Valuation Analysis — Buffett Framework
+
+---
+
+## 1. What the Three Scenarios Tell Us
+
+The three scenarios paint a consistent and sobering picture:
+
+| Scenario | Owner Earnings | Intrinsic Value | Price/IV Ratio | Zone |
+|---|---|---|---|---|
+| Bear | $64.0B | $157 | 3.17x | Consider Trimming |
+| Base | $111.5B | $445 | 1.12x | Do Not Buy |
+| Bull | $111.5B | $541 | 0.92x | Accumulate Cautiously |
+
+**The critical takeaway:** Even in the bull case — where optimistic growth assumptions are fully realized — MSFT trades at 92¢ per $1 of intrinsic value. You need everything to go *right* just to reach the lowest acceptable zone. In the base case, you are paying $1.12 for every $1 of intrinsic value, meaning you are already pricing in perfection and then some. The bear case is genuinely alarming at 3.17x intrinsic value — suggesting significant downside if growth disappoints.
+
+The probability-weighted expected return of approximately **7.5%** [4] further confirms this: acceptable, but not compelling by Buffett standards, and well below the 12–15% target range [3].
+
+---
+
+## 2. Would Buffett Buy, Hold, or Avoid?
+
+**Avoid adding. Do not buy.**
+
+The margin-of-safety framework [2] is unambiguous here:
+
+- **≤70¢** = Buy aggressively
+- **≤80¢** = Acceptable to buy
+- **80–95¢** = Accumulate cautiously
+- **95–100¢** = Hold, do not add
+- **>100¢** = Do not buy
+
+At **1.12x intrinsic value in the base case**, MSFT sits firmly in "Do Not Buy" territory. The bull case at 0.92x barely reaches "Accumulate Cautiously" — and that requires assuming the most optimistic scenario materializes.
+
+Buffett's bridge analogy [1] applies directly: if the bridge (your intrinsic value estimate) holds 30 tons, you don't drive a 33-ton truck across it because you *hope* the engineer was conservative. At current prices, MSFT offers no margin of safety in the base case and only a thin cushion in the bull case.
+
+> *"Even if your estimate is somewhat wrong, you are protected from permanent loss."* [1] — At these prices, there is no such protection.
+
+---
+
+## 3. What Would Need to Change for a Buy Signal?
+
+For MSFT to enter **acceptable buy territory (≤80¢ on base case)**, the price would need to fall to approximately **$356 or below** ($445 × 0.80). For the *ideal* buy zone (≤70¢), the target price would be approximately **$312 or below**.
+
+Alternatively, the thesis could improve if:
+
+- **Owner earnings expand materially beyond the base case** — e.g., Azure and Copilot monetization accelerates faster than modeled, pushing base-case IV significantly higher. The $627B RPO confirmation already lifted the base-case probability and raised the expected return to 7.5% [4], but this still wasn't enough to move the needle into buy territory.
+- **The discount rate environment shifts** — lower long-term rates would mechanically expand intrinsic value estimates.
+- **A meaningful market correction** brings price down to intrinsic value or below, without a corresponding deterioration in the business fundamentals (ROE 30%, 15% revenue and FCF CAGR) [5].
+
+The *business quality* is not in question — 30% ROE and 15% five-year CAGRs reflect a genuine, durable moat [5]. The problem is entirely **price paid relative to value**.
+
+---
+
+## Cards Cited
+- [1] Margin of safety principle — bridge analogy and permanent loss protection
+- [2] Cents-per-dollar framework — buy/hold/avoid zone thresholds
+- [3] ValueOS 12–15% growth target — benchmark for expected return adequacy
+- [4] Probability-weighted expected return — MSFT's 7.5% figure and context
+- [5] MSFT scenario data — three-scenario IV, ratios,
+
+========================================================

@@ -31,7 +31,7 @@ These are the authoritative intrinsic values. Always use these before generating
 - **MCO (Moody's):** IV = $560. Inputs: g1=13%, g2=10%, terminal=3.5%, discount rate=9.5%.
 - **V (Visa):** IV = $400. Inputs: g1=13%, g2=9%, terminal=4%, discount rate=10%.
 - **TSM (TSMC ADR):** IV = $620 (raised from $510 in June 2026 based on Q1 2026 actuals). Inputs: g1=20%, g2=12%, terminal=4%, discount rate=11%. Owner earnings per ADR ≈ $19.19.
-- **MSFT (Microsoft):** IV = $520. Inputs: g1=15%, g2=10%, terminal=3.5%, discount rate=10.5%.
+- **MSFT (Microsoft):** IV = $445 (revised down from $520 in July 2026 using clean FY2026 actuals). Inputs: g1=15%, g2=10%, terminal=3.5%, discount rate=10.5%, owner earnings ≈ $111.5B, OE/share ≈ $15.01. Honest range $255 (conservative) to $525 (optimistic); central case $445. At price ~$390 = 87.6¢ per dollar (accumulate zone).
 - **AVGO (Broadcom):** IV ≈ $309 (raised from $230 in June 2026 based on Q2 FY2026 FCF of $10.262B). Inputs: g1=20%, g2=12%, discount rate=10–11%.
 
 ### 2.2 TSMC IV update rationale (June 2026)
@@ -44,7 +44,7 @@ AVGO IV was raised from $230 to ~$309 in June 2026. Reason: Q2 FY2026 results (q
 
 ### 2.4 MSFT IV confirmation (June 2026)
 `tags: IV, MSFT, Microsoft, valuation`
-MSFT IV remains $520 (unchanged June 2026). Q3 FY2026 actuals (April 29 2026 SEC 8-K) confirmed rather than changed the model: revenue $82.9B (+18%), net income $31.79B, Azure growth +40% YoY (beating management's own 37–38% guidance), operating income $38.4B. Gross margin 67.6% — narrowest since 2022 due to mounting depreciation from the data-center buildout. Important adjustment: Q2 FY2026 net income was inflated by a one-time $7.6B OpenAI investment gain that must be stripped out; use Q3 annualized ($127.16B) as the clean base. Owner earnings ≈ $107.66B, OE/share ≈ $14.49. Azure sustaining 40% supports the g1=15% assumption.
+MSFT IV revised to $445 (July 29 2026, from Q4 FY2026 actuals — down from the earlier $520). Full-year FY2026: revenue $331B, operating income $155B, Azure grew 43% (beating 39–40% guidance) and crossed $100B annual for the first time (+41% full year), Copilot >30M paid seats. Q4 revenue $90.01B (+17.8%), reported EPS $4.74 — but that EPS included a one-time $3.2B Anthropic investment gain plus low VRP costs, which must be stripped for the IV. Clean earnings base: operating income $155B × (1−18% tax) ≈ $127B net income. Owner earnings = $127B + $45B D&A − $47.5B maintenance capex (25% of $190B) − $13B SBC = $111.5B; OE/share $15.01. Two-stage DCF (g1=15%, g2=10%, terminal 3.5%, discount 10.5%) plus $37B net cash gives IV ≈ $445. The revision is downward not because the business weakened (it strengthened — Azure 43%) but because the prior $520 rested on an inflated earnings base. Azure at 43% for two consecutive quarters confirms the g1=15% assumption. FY2027 capex guided up to ~$175–260B (partly an accounting reclassification) — the buildout is accelerating, not slowing.
 
 ---
 
@@ -68,7 +68,7 @@ Every position is evaluated as cents paid per $1 of intrinsic value: Margin of S
 
 ### 3.5 Probability-weighted expected return
 `tags: methodology, formula, expected-return, risk`
-Each stock's return is weighted by scenario probabilities to capture downside risk, not just upside. As of June 2026: MCO ≈ 13.1%, V ≈ 11.8%, MSFT ≈ 7.5% (raised from 2.35% after the $627B RPO confirmation lifted the base-case probability from 45% to 60%). MSFT's number is lower than its bull case because a ~10% probability scenario exists where the growth-capex add-back fails and IV collapses toward $103 — that severe tail drags the weighted average down. MCO and V have narrow outcome distributions (mild bad cases); MSFT has a wide distribution (severe bad case).
+Each stock's return is weighted by scenario probabilities to capture downside risk, not just upside. As of July 2026: MCO ≈ 13.1%, V ≈ 11.8%, MSFT ≈ 8–9% (raised after $627B RPO and two consecutive Azure quarters ≥40% lifted the base-case probability). MSFT's number remains below its bull case because a conservative scenario exists where the growth-capex add-back is only partly justified and IV falls toward ~$255 — that wide distribution drags the weighted average down. The July 2026 IV revision to $445 (from $520) reflects a cleaner earnings base, not a thesis change. MCO and V have narrow outcome distributions (mild bad cases); MSFT has a wide distribution, which is why its discount rate is 10.5% not 9.5%.
 
 ### 3.6 Weighted portfolio return
 `tags: methodology, formula, portfolio, return`
@@ -112,7 +112,7 @@ Business: manufactures ~90% of the world's most advanced chips; the "arms dealer
 
 ### 5.4 MSFT — Microsoft
 `tags: stock, MSFT, Microsoft, thesis`
-Business: Azure cloud + enterprise software + AI. IV $520 (g1=15%, dr=10.5%). The 10.5% discount rate carries a premium for the $190B/year capex uncertainty. Owner earnings ≈ $107.66B, OE/share ≈ $14.49, depends on a 75% growth-capex add-back ($142.5B). Key risk: if the add-back fails 50%, IV collapses toward $103 — the single biggest model sensitivity. Confidence raised June 2026 by Azure sustaining 40% growth and $627B RPO. The Azure growth rate is the live monitoring trigger.
+Business: Azure cloud + enterprise software + AI. IV $445 (revised July 2026; g1=15%, dr=10.5%). The 10.5% discount rate carries a premium for the $190B/year capex uncertainty. Owner earnings ≈ $111.5B, OE/share ≈ $15.01, depends on a 75% growth-capex add-back. Sensitivity is the defining feature: conservative assumptions (50% add-back, 13% growth) give ~$255; optimistic (75% add-back, 17% growth) give ~$525; central case $445. Confidence in the growth assumption raised by Azure hitting 43% in Q4 FY2026 (two consecutive quarters ≥40%) and $627B RPO. The Azure growth rate is the live monitoring trigger. Per the trigger table, Azure ≥40% sets the August+ monthly allocation to the top tier ($250/mo).
 
 ### 5.5 AVGO — Broadcom
 `tags: stock, AVGO, Broadcom, thesis`
